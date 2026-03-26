@@ -1,13 +1,3 @@
-const spider = document.getElementById("spiderCursor")
-
-document.addEventListener("mousemove",(e)=>{
-
-spider.style.left = e.clientX + "px"
-spider.style.top = e.clientY + "px"
-
-})
-
-
 
 window.goPage = function(page){
 

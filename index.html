@@ -1,106 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/estilo.css">
-    <title>ModsHub</title>
+
+    <title>JstudioS</title>
+
 </head>
-<body>
-    <img id="spiderCursor" src="https://cdn-icons-png.flaticon.com/512/616/616430.png">
-    <div id="blood"></div>
-    <header>
-        <div class="logo">ModsHub</div>
-
-    <nav>
-        <a onclick="goPage('home')">Home</a>
-        <a onclick="goPage('mods')">Mods</a>
-        <a onclick="goPage('updates')">Atualizações</a>
-        <a onclick="goPage('forum')">Comunidade</a>
-    </nav>
-
-        <button id="loginBtn">Entrar com Google</button>
-
-    </header>
-    <section id="home" class="page active hero">
-        <div class="hero-text">
-            <h1>Mods para seus jogos favoritos</h1>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png.png" alt="Logo da marca">
+            </div>
+            <nav>
+                <a href="#">HOME</a>
+                <span>|</span>
+                <a href="#">MODS</a>
+                <span>|</span>
+                <a href="#">NOSSOS 3D</a>
+                <span>|</span>
+                <a href="#">MY GAME</a>
+                <span>|</span>
+                <a href="#">MINI</a>
+            </nav>
+            <div class="auth">
+                <button>LOGIN</button>
+                <button>SIGN-UP</button>
+            </div>
+        </header>
+        <main>
+            <div class="conteudo">
+            <h1>JstudioS</h1>
+            <h3>Quem Somos?</h3>
             <p>
-            Baixe mods, acompanhe atualizações e participe da comunidade.
+            Damos vida às suas ideias com modelagem 3D de alta qualidade.
+            Criamos personagens, cenários e objetos prontos para rodar
+            direto no seu jogo ou projeto.
+
+            Unimos um visual incrível com a leveza que seu software precisa,
+            entregando tudo pronto do desenho à textura final.
             </p>
-            <button onclick="goPage('mods')">Explorar Mods</button>
-        </div>
-    </section>
-    <section class="page features">
-        <h2>4 motivos para usar nosso site</h2>
-            <div class="cards">
-            <div class="card">
-        <h3>1</h3>
-        <p>Mods seguros e verificados.</p>
             </div>
-            <div class="card">
-        <h3>2</h3>
-        <p>Atualizações frequentes.</p>
+            <div class="updates">
+            <h3>ATUALIZAÇÕES</h3>
             </div>
-            <div class="card">
-        <h3>3</h3>
-        <p>Comunidade ativa.</p>
-            </div>
-            <div class="card">
-        <h3>4</h3>
-        <p>Downloads rápidos.</p>
-            </div>
-            </div>
-    </section>
-    <section id="mods" class="page">
-        <h2>Mods recentes</h2>
-            <div class="mods-grid">
-            <div class="mod-card">
-        <h3>Mod Gráfico Ultra</h3>
-        <p>Melhora gráficos do jogo.</p>
-        <button>Download</button>
-            </div>
-        <div class="mod-card">
-        <h3>Nova Arma</h3>
-        <p>Adiciona armas inéditas.</p>
-        <button>Download</button>
-            </div>
-        <div class="mod-card">
-        <h3>Mapa Expandido</h3>
-        <p>Novo mapa para explorar.</p>
-        <button>Download</button>
-            </div>
-            </div>
-    </section>
-<section id="updates" class="page">
-    <h2>Atualizações</h2>
-    <ul>
-        <li>v1.2 Novo mod gráfico</li>
-        <li>v1.1 Correções de bugs</li>
-    </ul>
-</section>
-
-<section id="forum" class="page">
-    <h2>Comunidade</h2>
-    <div id="profile" class="profile hidden">
-    <h3>Seu Perfil</h3>
-    <input type="text" placeholder="Nome para exibição">
-    <input type="text" placeholder="Número de contato">
-    <button>Salvar Perfil</button>
-    </div>
-
-    <div class="forum">
-    <h3>Mini Fórum</h3>
-    <textarea placeholder="Escreva algo..."></textarea>
-    <button>Postar</button>
-    <div id="posts"></div>
-    </div>
-</section>
-    <script defer src="script/script.js"></script>
-    
+        </main>
     <footer>
-        <p>Tavinho © 2026</p>
+        <p>&copy; 2026 JstudioS. Todos os direitos reservados.</p>
     </footer>
-
-</body>
+    </body>
 </html>
