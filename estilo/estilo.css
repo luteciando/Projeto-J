@@ -12,23 +12,12 @@ margin:0;
 font-family:Arial;
 
 /* imagem de fundo */
-background:url("../img/robot.png.png") no-repeat center right;
+background:url("../img/robot.png") no-repeat center right;
 background-size:cover;
 
 color:white;
-min-height:100vh;
-}body{
-margin:0;
-font-family:Arial;
-
-/* imagem de fundo */
-background:url("../img/robot.png.png") no-repeat center right;
-background-size:cover;
-
-color:white;
-min-height:100vh;
+min-height:100%;
 }
-
 
 /* HEADER */
 
@@ -39,14 +28,14 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 padding:20px 40px;
+border: 2px solid #131313;
 
 /* transparência */
-background:rgba(0,0,0,0.4);
-backdrop-filter:blur(6px);
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo img{
-height:50px;
+height: 40px;
 width:auto;
 }
 
@@ -124,8 +113,9 @@ line-height:1.5;
 .updates{
 width:250px;
 height:250px;
-background:#a9bccd;
-border:2px solid #333;
+background:none;
+border: 1px solid #131313;
+border-radius: 4%;
 padding:10px;
 }
 
@@ -138,11 +128,11 @@ text-align:center;
 /* FOOTER TRANSPARENTE */
 
 footer{
-height:60px;
+padding: 10px 40px;
 text-align: center;
+border: 2px solid #131313;
 /* transparente igual header */
-background:rgba(0,0,0,0.4);
-backdrop-filter:blur(6px);
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* TABLET */
